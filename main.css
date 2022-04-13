@@ -1,3 +1,35 @@
 body {
-  background-color: darkgrey;
+  background-color: black;
+  text-align: center;
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  
+}
+button {
+  background-color: black;
+  color: white;
+  margin: 10px;
+}
+
+.container {
+  display:flex;
+  align-items: center;
+  }
+
+.circle { 
+  position: relative; 
+  width: 200px;
+  height: 200px; 
+  overflow: hidden; 
+  margin-right: 50px;
+  border-radius: 50%; 
+  display: flex;
+ justify-content: center; 
+} 
+
+.name {
+  color: white;
+  align-content: center;
+  
 }
