@@ -15,16 +15,23 @@ button {
 .container {
   display:flex;
   align-items: center;
+  
   }
+ 
 
 .circle { 
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 50%;
   position: relative; 
-  width: 400px;
+  width: 500px;
   height: 400px;
   overflow: hidden; 
-  border-radius: 50%; 
-  display: flex;
- justify-content: center; 
+  border: dotted blue 6px;
+  
+  
+  
 } 
 
 .name {
